@@ -1,7 +1,6 @@
 import { useState, useRef } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { register } from '../services/api';
-import { UploadCloud } from 'lucide-react';
 import AuthLayout from '../components/AuthLayout';
 
 const SignUp = () => {
